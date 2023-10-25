@@ -5,3 +5,5 @@ resource "aws_instance" "EC2" {
       name = var.instance_name
     }
 }
+
+#Why god why
