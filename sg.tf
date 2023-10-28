@@ -1,3 +1,7 @@
+provider "aws" {
+    region = "ap-south-1"
+}
+
 resource "aws_security_group" "terfm_project" {
     name        = "ALLOW_SSH"
 
